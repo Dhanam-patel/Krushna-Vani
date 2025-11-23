@@ -1,0 +1,10 @@
+fastapi
+python-dotenv
+pydantic
+langchain-core
+langchain-google-genai
+google-genai
+google
+pinecone
+uvicorn
+gunicorn

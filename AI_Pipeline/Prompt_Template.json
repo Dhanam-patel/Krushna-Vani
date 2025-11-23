@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "retrieved_context",
+        "user_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n\nContext (excerpts from Bhagavad Gita and commentary):\n{retrieved_context}\n\nUser Question:\n{user_input}\n\nInstructions for response:\n- Provide a very simplified and clear explanation suitable for youth, based only on the provided context.\n- Do NOT add any external information or hallucinate.\n- Then, provide the actual verse exactly as in the context, with appropriate formatting.\n- Afterwards, list meta-data including:\n  * Shlok (verse) number(s)\n  * Adhyay (chapter) number or name\n  * Any other relevant citations or metadata\n- Maintain respect for the original text's meaning and spiritual tone.\n- Help the user engage with the teachings meaningfully.\n\nResponse format:\n1. Simple Explanation:\n   [Your simplified understandable answer]\n\n2. Actual Verse from the Context:\n   [The exact verse, properly quoted and tagged]\n\n3. Meta Data:\n   - Shlok (Verse) number: [Verse number]\n   - Adhyay (Chapter) number: [Chapter number or name]\n   - Other citation: [Translator, publisher, or relevant info]\n\nResponse:\n\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
